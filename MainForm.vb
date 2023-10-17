@@ -29,4 +29,12 @@
     Private Sub firstThirdTaskFormBtn_Click(sender As Object, e As EventArgs) Handles firstThirdTaskFormBtn.Click
         OpenForm(GetType(Test3Task1))
     End Sub
+
+    Private Sub secThirdTaskFormBtn_Click(sender As Object, e As EventArgs) Handles secThirdTaskFormBtn.Click
+        OpenForm(GetType(Test3Task2))
+    End Sub
+
+    Private Sub thirdThirdTaskFormBtn_Click(sender As Object, e As EventArgs) Handles thirdThirdTaskFormBtn.Click
+        OpenForm(GetType(Test3Task3))
+    End Sub
 End Class
